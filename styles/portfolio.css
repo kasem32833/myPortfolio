@@ -42,6 +42,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     margin: 0 200px;
+    padding-top: 30px;
 }
 .nav-title{
     color: #181818;
@@ -65,9 +66,9 @@ nav a{
 /* Header related style */
 .header{
     background-color: #FFF8F3;
-    background-image: url(../images/header_bg.png);
+    background-image: url(../images/header_bg.png), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;    
 
 }
 .banner{
@@ -164,6 +165,7 @@ section{
     background: #FFF;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     padding: 30px;
+    box-shadow: 5px 5px 10px  #ddd;
 
 }
 .skill-title{
@@ -263,6 +265,7 @@ footer{
     background-color: #fff;
     border:none;
     width: 100%;
+    font-family: Open-Sans;
    
 }
 .footer-column .section-description{
@@ -277,7 +280,7 @@ footer{
     margin-top: 30px;
 
 }
-
 .footer-column .section-title{
     text-align: left;
 }
+
