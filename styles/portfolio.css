@@ -225,3 +225,22 @@ section{
 .download-cv button{
     margin-top: 50px;
 }
+
+/* Foote style */
+
+footer{
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+    background: #FFF8F3;
+    margin-top: 110px;
+    padding: 130px 230px;
+}
+
+.social-links{
+    display: flex;
+    gap: 24;
+}
+.footer-column{
+    width: 50%;
+}
