@@ -286,17 +286,35 @@ main{
 
 /* Responsive small device */
 @media screen and (max-width:576px){
-    .skills-container, .resume-container, .footer{
+    .skills-container, 
+    .resume-container, 
+    .footer, 
+    .about-info-container,
+    .banner,
+    nav, 
+    nav > ul {
         flex-direction: column;
     }
+    .banner,
     #what-i-do-description{
         padding: 20px;
     }
-    .footer{
+    .banner .profile-picture{
+        width: 100%;
+    }
+    .footer, .about{
         padding: 10px;
     }
     .footer-column{
         width: 100%;
+    }
+    .header{
+        background-image: none;
+    }
+    .btn-primary{
+        margin: 20px;
+        padding: 15px 30px;
+        display: inline-block;
     }
 
 }
