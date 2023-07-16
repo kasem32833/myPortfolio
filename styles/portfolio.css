@@ -9,6 +9,10 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+.hide{
+    display: none;
+}
+
 .text-primary{
     color: #FD6E0A;
 }    
@@ -79,14 +83,9 @@ nav a{
     align-items: center;
     position: relative;
     margin-top: 150px;
-
-}
-.banner img{
-    
 }
 .banner .profile-picture{
     width: 500px;
-    height: ;
 }
 .banner-content{
     max-width: 500px;
@@ -102,7 +101,6 @@ nav a{
     font-weight: 700;
     margin-top: 5px;
     margin-bottom: 20px;
-
 
 }
 .banner-description{
@@ -236,7 +234,7 @@ main{
 
 /* Foote style */
 
-footer{
+.footer{
     display: flex;
     gap: 100px;
     justify-content: space-between;
@@ -245,10 +243,6 @@ footer{
     padding: 130px 230px;
     
 }
-
-
-
-
 .social-links{
     display: flex;
     gap: 24;
@@ -288,5 +282,28 @@ footer{
 }
 .footer-column .section-title{
     text-align: left;
+}
+
+/* Responsive small device */
+@media screen and (max-width:576px){
+    .skills-container, .resume-container, .footer{
+        flex-direction: column;
+    }
+    #what-i-do-description{
+        padding: 20px;
+    }
+    .footer{
+        padding: 10px;
+    }
+    .footer-column{
+        width: 100%;
+    }
+
+}
+@media screen  and (min-width:576px) and (max-width:960px){
+    .skills-container, .resume-container{
+        flex-direction: column;
+    }
+    
 }
 
